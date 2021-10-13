@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping(value={"/", "/first", "/index"}) @ResponseBody
     public String first(){
-        return "hello world!";
+        return "hello world22!";
     }
 
 }
